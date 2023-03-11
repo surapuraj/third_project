@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app.viwes import chitti
+from app.views import akhila
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('chitti/',chitti,name='chitti'),
+    path('akhila/',akhila,name='akhila'),
 ]
